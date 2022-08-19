@@ -1,0 +1,397 @@
+
+@import url('http://fonts.cdnfonts.com/css/d-din');
+
+$fonts: 'Poppins', Helvertica, sans-serif;
+$primary-color: #ab99ca;
+
+
+* {
+    color:#fff;
+    // font: $fonts;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+    text-decoration: none;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+
+html {
+
+}
+ul {
+    list-style:none;
+}
+
+body {
+    font-family: 'D-DIN', sans-serif;
+    font-family: 'D-DIN Condensed', sans-serif;
+    font-family: 'D-DIN Exp', sans-serif;
+}
+
+
+a {
+    div.specific-button {
+        padding: 10px 30px;
+        border: 2px solid #fff;
+        display: inline-block;
+        h5 {
+            font-size: 12px;
+            font-family: 'D-DIN', sans-serif;
+            font-weight: 600;
+        }
+    }
+    
+}
+
+
+#home {
+    #spotlight {
+        max-height: 100vh;
+        min-height:100vh;
+        background-image: url(../images/first.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding:10px 0 0px 50px ;
+        
+        section.wrapper {
+            display: block;
+            max-width: 1170px;
+            margin: 0 auto;
+            header {
+                // display: flex;
+                // justify-content: space-between;
+                div.top-header {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    a {
+                        div.only-logo {
+                            width: 10%;
+                            div.logo {
+                                width: 160px;
+                                height: 40px;
+                                img {
+                                    width: 200px;
+                                    height: 100%;
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                    
+                    div.main-navs {
+                        width: auto;
+                        ul {
+                            display: flex;
+                            justify-content:space-between;
+                            align-items: center;
+                            li {
+                                margin-right: 10px;
+                                a {
+                                    h4 {
+                                        font-family: 'D-DIN';
+                                        font-weight: 700;
+                                        font-size: 11px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    div.shop-and-menu {
+                        width:10% ;
+                        display: flex;
+                        align-items: center;
+                        a {
+                            // margin-right: 10px;
+                            h4 {
+                                font-family: 'D-DIN';
+                                font-weight: 700;
+                                font-size: 12px;
+                            }
+                        }
+                        div.menu {
+                            // align-items: center;
+                            margin-left: 10px;
+                            a {
+                                ul {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                    flex-direction: column;
+                                    li {
+                                        width: 15px;
+                                        height: 2px;
+                                        background: #fff;
+                                        margin-top: 3px;
+                                        border-radius: 5px;
+                                    }
+                                    li.one {
+                                        margin-top: 0px;
+                                    }
+                                    li.two {
+
+                                    }
+                                    li.three {
+    
+                                    }
+                                }
+                            } 
+                        }
+                    }
+                    .forbg {
+                        background: #000;
+                    } 
+                }
+            }
+            section.below-header {
+                margin-top: 270px;
+                animation-name: sliding;
+                animation-duration: 2s;
+                @keyframes sliding {
+                    0% {
+                        display: none;
+                    }
+                    25% {
+                        display: unset;
+                        margin-left: 10px;
+                        opacity: 0.5;
+                    }
+                    100% {
+                        margin-left: 0px;
+                        opacity: 1;
+                        
+                    }
+                }
+                h2 {
+                    font-size: 16px;
+                    font-family: 'D-DIN', sans-serif;
+                    font-weight: 400;
+                }
+                h1 {
+                    font-size: 40px;
+                    font-family: 'D-DIN', sans-serif;
+                    font-weight: 700;
+                    margin: 5px 0 10px 0;
+                }
+                // a {
+                //     div.specific-button {
+                //         padding: 10px 30px;
+                //         border: 2px solid #fff;
+                //         display: inline-block;
+                //         h5 {
+                //             font-size: 12px;
+                //             font-family: 'D-DIN', sans-serif;
+                //             font-weight: 600;
+                //         }
+                //     }
+                // }
+            }
+        }
+    }
+
+    // #spotlight ended
+
+    section.menu-inside-navs {
+        width:auto;
+        display:none;
+        background: #000;
+        color: #fff;
+        align-items: center;
+        margin-right: 40px;
+        div.each {
+            // display: flex;
+            // justify-content: space-between;
+            margin: 0 20% 0 90% ;
+            align-items: center;
+            a {
+                padding-top: 20px ;
+                text-decoration: underline;
+                // margin-bottom: 10px;
+                h4 {
+                margin-bottom: 10px;
+                }
+            }
+        }
+    }
+
+
+    #kplo {
+        max-height: 90vh;
+        min-height:90vh;
+        background-image: url(../images/Homepage_Desktop.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding:10px 0 0px 50px ;
+        section.wrapper {
+            display: block;
+            max-width: 1170px;
+            margin: 0 auto;
+            section.KPLO-main {
+                margin-top: 300px;
+                    h2 {
+                        font-size: 16px;
+                        font-family: 'D-DIN', sans-serif;
+                        font-weight: 400;
+                    }
+                    h1 {
+                        font-size: 40px;
+                        font-family: 'D-DIN', sans-serif;
+                        font-weight: 700;
+                        margin: 5px 0 10px 0;
+                    }
+                    a {
+                        div.specific-button {
+                            padding: 10px 30px;
+                            border: 2px solid #fff;
+                            display: inline-block;
+                            h5 {
+                                font-size: 12px;
+                                font-family: 'D-DIN', sans-serif;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+            }
+        }
+        
+    }
+
+    //#KPLO finsihed
+
+
+    #STARSHIP {
+        max-height: 90vh;
+        min-height:90vh;
+        background-image: url(../images/S20_Chopstick_Stack_Desktop2.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding:10px 0 0px 50px ;
+        section.wrapper {
+            display: block;
+            max-width: 1170px;
+            margin: 0 auto;
+            section.STARSHIP-main {
+                margin-top: 330px;
+                    h2 {
+                        font-size: 16px;
+                        font-family: 'D-DIN', sans-serif;
+                        font-weight: 400;
+                    }
+                    h1 {
+                        font-size: 40px;
+                        font-family: 'D-DIN', sans-serif;
+                        font-weight: 700;
+                        margin: 5px 0 10px 0;
+                    }
+                    a {
+                        div.specific-button {
+                            padding: 10px 30px;
+                            border: 2px solid #fff;
+                            display: inline-block;
+                            h5 {
+                                font-size: 12px;
+                                font-family: 'D-DIN', sans-serif;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+            }
+        }
+        
+    }
+
+    //#startship ended
+
+    #NASA {
+        max-height: 100vh;
+        min-height:100vh;
+        background-image: url(../images/hls-resized-2.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding:10px 0 0px 50px ;
+        section.wrapper {
+            display: block;
+            max-width: 1170px;
+            margin: 0 auto;
+            section.NASA-main {
+                margin-top: 270px;
+                    h1 {
+                        font-size: 40px;
+                        font-family: 'D-DIN', sans-serif;
+                        font-weight: 700;
+                        margin: 5px 0 10px 0;
+                    }
+                    a {
+                        div.specific-button {
+                            padding: 10px 30px;
+                            border: 2px solid #fff;
+                            display: inline-block;
+                            h5 {
+                                font-size: 12px;
+                                font-family: 'D-DIN', sans-serif;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+            }
+        }
+        
+    }
+
+    //#NASA ended
+
+
+    footer {
+        background: #000;
+        padding: 30px 0;
+        #foot {
+            padding: 0 240px;
+            display: block;
+            margin: 0 auto;
+            width: auto;
+            ul {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                li {
+                    margin:0px 0 ;
+                    a {
+                        h5 {
+                            font-size: 10px;
+                            font-family: 'D-DIN', sans-serif;
+                            font-weight: 700;
+                        }
+                    }
+                } //common ended
+                li.special {
+                    opacity: 0.5;
+                        h5 {
+                            font-size: 10px;
+                            font-family: 'D-DIN', sans-serif;
+                            font-weight: 700;
+                        }
+                }
+            }
+        }
+        
+    }
+
+}
+
+
+
+
+
+
+@media all and (max-width:1200px){
+    #home #spotlight {
+        padding: 0;
+    }
+}

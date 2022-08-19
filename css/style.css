@@ -1,0 +1,411 @@
+@import url("http://fonts.cdnfonts.com/css/d-din");
+* {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  text-decoration: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: 'D-DIN', sans-serif;
+  font-family: 'D-DIN Condensed', sans-serif;
+  font-family: 'D-DIN Exp', sans-serif;
+}
+
+a div.specific-button {
+  padding: 10px 30px;
+  border: 2px solid #fff;
+  display: inline-block;
+}
+
+a div.specific-button h5 {
+  font-size: 12px;
+  font-family: 'D-DIN', sans-serif;
+  font-weight: 600;
+}
+
+#home #spotlight {
+  max-height: 100vh;
+  min-height: 100vh;
+  background-image: url(../images/first.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 0 0px 50px;
+}
+
+#home #spotlight section.wrapper {
+  display: block;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+#home #spotlight section.wrapper header div.top-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#home #spotlight section.wrapper header div.top-header a div.only-logo {
+  width: 10%;
+}
+
+#home #spotlight section.wrapper header div.top-header a div.only-logo div.logo {
+  width: 160px;
+  height: 40px;
+}
+
+#home #spotlight section.wrapper header div.top-header a div.only-logo div.logo img {
+  width: 200px;
+  height: 100%;
+  display: block;
+}
+
+#home #spotlight section.wrapper header div.top-header div.main-navs {
+  width: auto;
+}
+
+#home #spotlight section.wrapper header div.top-header div.main-navs ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#home #spotlight section.wrapper header div.top-header div.main-navs ul li {
+  margin-right: 10px;
+}
+
+#home #spotlight section.wrapper header div.top-header div.main-navs ul li a h4 {
+  font-family: 'D-DIN';
+  font-weight: 700;
+  font-size: 11px;
+}
+
+#home #spotlight section.wrapper header div.top-header div.shop-and-menu {
+  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#home #spotlight section.wrapper header div.top-header div.shop-and-menu a h4 {
+  font-family: 'D-DIN';
+  font-weight: 700;
+  font-size: 12px;
+}
+
+#home #spotlight section.wrapper header div.top-header div.shop-and-menu div.menu {
+  margin-left: 10px;
+}
+
+#home #spotlight section.wrapper header div.top-header div.shop-and-menu div.menu a ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#home #spotlight section.wrapper header div.top-header div.shop-and-menu div.menu a ul li {
+  width: 15px;
+  height: 2px;
+  background: #fff;
+  margin-top: 3px;
+  border-radius: 5px;
+}
+
+#home #spotlight section.wrapper header div.top-header div.shop-and-menu div.menu a ul li.one {
+  margin-top: 0px;
+}
+
+#home #spotlight section.wrapper header div.top-header .forbg {
+  background: #000;
+}
+
+#home #spotlight section.wrapper section.below-header {
+  margin-top: 270px;
+  -webkit-animation-name: sliding;
+          animation-name: sliding;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+@-webkit-keyframes sliding {
+  0% {
+    display: none;
+  }
+  25% {
+    display: unset;
+    margin-left: 10px;
+    opacity: 0.5;
+  }
+  100% {
+    margin-left: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes sliding {
+  0% {
+    display: none;
+  }
+  25% {
+    display: unset;
+    margin-left: 10px;
+    opacity: 0.5;
+  }
+  100% {
+    margin-left: 0px;
+    opacity: 1;
+  }
+}
+
+#home #spotlight section.wrapper section.below-header h2 {
+  font-size: 16px;
+  font-family: 'D-DIN', sans-serif;
+  font-weight: 400;
+}
+
+#home #spotlight section.wrapper section.below-header h1 {
+  font-size: 40px;
+  font-family: 'D-DIN', sans-serif;
+  font-weight: 700;
+  margin: 5px 0 10px 0;
+}
+
+#home section.menu-inside-navs {
+  width: auto;
+  display: none;
+  background: #000;
+  color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 40px;
+}
+
+#home section.menu-inside-navs div.each {
+  margin: 0 20% 0 90%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#home section.menu-inside-navs div.each a {
+  padding-top: 20px;
+  text-decoration: underline;
+}
+
+#home section.menu-inside-navs div.each a h4 {
+  margin-bottom: 10px;
+}
+
+#home #kplo {
+  max-height: 90vh;
+  min-height: 90vh;
+  background-image: url(../images/Homepage_Desktop.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 0 0px 50px;
+}
+
+#home #kplo section.wrapper {
+  display: block;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+#home #kplo section.wrapper section.KPLO-main {
+  margin-top: 300px;
+}
+
+#home #kplo section.wrapper section.KPLO-main h2 {
+  font-size: 16px;
+  font-family: 'D-DIN', sans-serif;
+  font-weight: 400;
+}
+
+#home #kplo section.wrapper section.KPLO-main h1 {
+  font-size: 40px;
+  font-family: 'D-DIN', sans-serif;
+  font-weight: 700;
+  margin: 5px 0 10px 0;
+}
+
+#home #kplo section.wrapper section.KPLO-main a div.specific-button {
+  padding: 10px 30px;
+  border: 2px solid #fff;
+  display: inline-block;
+}
+
+#home #kplo section.wrapper section.KPLO-main a div.specific-button h5 {
+  font-size: 12px;
+  font-family: 'D-DIN', sans-serif;
+  font-weight: 600;
+}
+
+#home #STARSHIP {
+  max-height: 90vh;
+  min-height: 90vh;
+  background-image: url(../images/S20_Chopstick_Stack_Desktop2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 0 0px 50px;
+}
+
+#home #STARSHIP section.wrapper {
+  display: block;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+#home #STARSHIP section.wrapper section.STARSHIP-main {
+  margin-top: 330px;
+}
+
+#home #STARSHIP section.wrapper section.STARSHIP-main h2 {
+  font-size: 16px;
+  font-family: 'D-DIN', sans-serif;
+  font-weight: 400;
+}
+
+#home #STARSHIP section.wrapper section.STARSHIP-main h1 {
+  font-size: 40px;
+  font-family: 'D-DIN', sans-serif;
+  font-weight: 700;
+  margin: 5px 0 10px 0;
+}
+
+#home #STARSHIP section.wrapper section.STARSHIP-main a div.specific-button {
+  padding: 10px 30px;
+  border: 2px solid #fff;
+  display: inline-block;
+}
+
+#home #STARSHIP section.wrapper section.STARSHIP-main a div.specific-button h5 {
+  font-size: 12px;
+  font-family: 'D-DIN', sans-serif;
+  font-weight: 600;
+}
+
+#home #NASA {
+  max-height: 100vh;
+  min-height: 100vh;
+  background-image: url(../images/hls-resized-2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 0 0px 50px;
+}
+
+#home #NASA section.wrapper {
+  display: block;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+#home #NASA section.wrapper section.NASA-main {
+  margin-top: 270px;
+}
+
+#home #NASA section.wrapper section.NASA-main h1 {
+  font-size: 40px;
+  font-family: 'D-DIN', sans-serif;
+  font-weight: 700;
+  margin: 5px 0 10px 0;
+}
+
+#home #NASA section.wrapper section.NASA-main a div.specific-button {
+  padding: 10px 30px;
+  border: 2px solid #fff;
+  display: inline-block;
+}
+
+#home #NASA section.wrapper section.NASA-main a div.specific-button h5 {
+  font-size: 12px;
+  font-family: 'D-DIN', sans-serif;
+  font-weight: 600;
+}
+
+#home footer {
+  background: #000;
+  padding: 30px 0;
+}
+
+#home footer #foot {
+  padding: 0 240px;
+  display: block;
+  margin: 0 auto;
+  width: auto;
+}
+
+#home footer #foot ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#home footer #foot ul li {
+  margin: 0px 0;
+}
+
+#home footer #foot ul li a h5 {
+  font-size: 10px;
+  font-family: 'D-DIN', sans-serif;
+  font-weight: 700;
+}
+
+#home footer #foot ul li.special {
+  opacity: 0.5;
+}
+
+#home footer #foot ul li.special h5 {
+  font-size: 10px;
+  font-family: 'D-DIN', sans-serif;
+  font-weight: 700;
+}
+
+@media all and (max-width: 1200px) {
+  #home #spotlight {
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
